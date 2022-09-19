@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Character {
 
 		public static void main(String[] args) {
-			int c;
+			char c;
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the character:");
 			c = sc.next().charAt(0);
